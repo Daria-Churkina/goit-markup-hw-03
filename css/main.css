@@ -12,8 +12,9 @@
 
 .hero {
   text-align: center;
+  margin-bottom: 94px;
 
-  outline: 2px solid blue;
+  /* outline: 2px solid blue; */
 }
 
 .hero-title {
@@ -32,8 +33,18 @@
 
 /* section */
 
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 94px;
+}
+
 .section-title {
+  display: block;
   margin: 0px;
+  margin-bottom: 50px;
+
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -43,12 +54,14 @@
 }
 
 .feature-list {
+  display: flex;
   margin: 0px;
   padding: 0px;
   list-style: none;
 }
 
 .feature-list .title {
+  display: block;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -85,7 +98,11 @@
   letter-spacing: 0.03em;
 }
 
+/* services */
+
 .service-list {
+  display: flex;
+  justify-content: space-between;
   margin: 0px;
   padding: 0px;
   list-style: none;
@@ -103,7 +120,11 @@
   text-transform: uppercase;
 }
 
+/* team */
+
 .team-list {
+  display: flex;
+  justify-content: space-between;
   margin: 0px;
   padding: 0px;
   list-style: none;
@@ -130,6 +151,9 @@
 }
 
 .social-list {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-evenly;
   margin: 0px;
   padding: 0px;
   list-style: none;
@@ -143,6 +167,8 @@
 }
 
 .client-list {
+  display: flex;
+  justify-content: space-between;
   margin: 0px;
   padding: 0px;
   list-style: none;

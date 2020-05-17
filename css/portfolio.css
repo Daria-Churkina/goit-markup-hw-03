@@ -29,10 +29,42 @@ button:focus {
   background-color: var(--accent-bg-color);
 }
 
+.conteiner.main {
+  margin-top: 93px;
+}
+
+/* services */
+
+.service-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0px;
+  padding: 0px;
+
+  margin-bottom: 34px;
+  list-style: none;
+}
+
+/* projects */
+
 .project-list {
+  display: flex;
+  flex-wrap: wrap;
+
   margin: 0px;
   padding: 0px;
   list-style: none;
+}
+
+.project.element {
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+}
+
+.project.element:nth-child(3n) {
+  margin-right: 0px;
 }
 
 .project-list .image {
@@ -74,14 +106,4 @@ button:focus {
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
-}
-
-/* services */
-
-.service-list {
-  margin: 0px;
-  padding: 0px;
-
-  margin-bottom: 34px;
-  list-style: none;
 }
