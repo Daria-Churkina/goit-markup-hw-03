@@ -24,7 +24,7 @@ footer {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   outline: 2px solid blue;
@@ -132,6 +132,7 @@ footer {
 }
 
 .contact-nav .link {
+  display: inline-block;
   color: var(--primaty-text-color);
   text-decoration: none;
 }
@@ -148,7 +149,7 @@ footer {
 
 .footer {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 .address-street {
@@ -164,7 +165,7 @@ footer {
 }
 
 .address .link {
-  display: block;
+  display: inline-block;
   margin-bottom: 9px;
 
   color: var(--footer-main-color);
@@ -186,11 +187,6 @@ footer {
   letter-spacing: 0.03em;
 }
 
-.join-box {
-  margin-left: 180px;
-  margin-right: 100px;
-}
-
 .join {
   margin-bottom: 21px;
 
@@ -209,6 +205,7 @@ footer {
 }
 
 .join-social .link {
+  display: inline-block;
   text-decoration: none;
 }
 

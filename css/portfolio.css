@@ -62,6 +62,8 @@ button:focus {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .project.element:nth-child(3n) {
@@ -72,9 +74,18 @@ button:focus {
   margin-bottom: 0px;
 }
 
-.project-list .image {
-  margin-bottom: 20px;
+.card.content {
+  padding: 20px 24px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
+
+/* .project-list .image {
+  display: inline-block;
+} */
 
 .project-list .title {
   margin: 0px;
@@ -88,6 +99,7 @@ button:focus {
 }
 
 .project-list .link {
+  display: inline-block;
   text-decoration: none;
 }
 
