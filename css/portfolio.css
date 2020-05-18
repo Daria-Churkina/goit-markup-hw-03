@@ -74,6 +74,10 @@ button:focus {
   margin-bottom: 0px;
 }
 
+.project-list .image {
+  display: block;
+}
+
 .card.content {
   padding: 20px 24px;
   border-left: 1px solid #eeeeee;
