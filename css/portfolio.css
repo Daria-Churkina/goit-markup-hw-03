@@ -83,10 +83,6 @@ button:focus {
   border-bottom-left-radius: 5px;
 }
 
-/* .project-list .image {
-  display: inline-block;
-} */
-
 .project-list .title {
   margin: 0px;
   margin-bottom: 4px;
