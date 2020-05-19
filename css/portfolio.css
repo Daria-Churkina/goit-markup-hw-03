@@ -94,6 +94,7 @@ button:focus {
 }
 
 .project-list .title {
+  display: inline-block;
   margin: 0px;
   margin-bottom: 4px;
 
