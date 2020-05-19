@@ -39,12 +39,27 @@ button:focus {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 4px;
 
   margin: 0px;
   padding: 0px;
 
   margin-bottom: 34px;
   list-style: none;
+}
+
+.service-list .link {
+  display: inline-block;
+
+  /* background-color: var(--secondary-bg-color);
+  text-decoration: none;
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  padding: 6px 22px; */
 }
 
 /* projects */

@@ -36,7 +36,6 @@ footer {
 }
 
 .logo {
-  display: block;
   padding-top: 24px;
   padding-bottom: 25px;
 
@@ -143,13 +142,37 @@ footer {
 }
 
 /* footer */
-.logo-studio-footer {
-  color: var(--white-text-color);
-}
 
 .footer {
   display: flex;
   align-items: baseline;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logo-footer {
+  color: var(--accent-bg-color);
+  font-family: raleway, sans-serif;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
+}
+
+.logo-studio-footer {
+  color: var(--white-text-color);
+}
+
+.address-box {
+  display: block;
+  padding-top: 48px;
+  padding-bottom: 28px;
+}
+
+.address {
+  margin-top: 10px;
 }
 
 .address-street {
@@ -215,6 +238,10 @@ footer {
 
 .bottom-text {
   display: block;
+  margin: 0px;
+  padding-top: 18px;
+  padding-bottom: 21px;
+
   color: var(--footer-bottom-text);
   font-weight: 400;
   font-size: 12px;

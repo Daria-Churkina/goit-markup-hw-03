@@ -134,6 +134,10 @@
   list-style: none;
 }
 
+.team-list .member {
+  padding-bottom: 24px;
+}
+
 .team-list .text {
   margin-bottom: 16px;
   font-weight: 400;
