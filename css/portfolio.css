@@ -16,7 +16,6 @@ button {
   display: inline-block;
   border-radius: 4px;
   padding: 6px 22px;
-  margin-right: 8px;
 
   color: var(--title-text-color);
   background-color: var(--secondary-bg-color);
@@ -52,6 +51,14 @@ button:focus {
   margin-bottom: 34px;
   list-style: none;
 }
+
+.service-list .link:not(:last-child) {
+  margin-right: 8px;
+}
+
+/* .service-list .link:last-child {
+  margin-right: 0px;
+} */
 
 /* projects */
 
